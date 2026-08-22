@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "student-backend-pro"
+version = "0.1.0"
+description = ""
+authors = ["天奇 <wjczgl@126.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.141.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
